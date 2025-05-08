@@ -2,7 +2,7 @@ main(){
   int numberOne = 10;//10 20 30 40 50
   String name = "Alif";  //Text value
   bool isTrue = true;   //true or false
-  double myNum = 10.23;  //
+  double myNum = 10.23;  //Point Value
 
   String firstName = "Fahim";
   String lastName = "Shahriar Alif";

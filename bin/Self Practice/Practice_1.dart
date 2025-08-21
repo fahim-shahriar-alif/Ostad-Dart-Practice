@@ -31,4 +31,18 @@ main(){
 
 
 
+  // List , Map, Set Operations
+
+  List<int> numbers = [1, 2, 3, 4, 5];
+  Set<String> names = {"Alif", "Asif", "Rochi"};
+  Map<String, int> ages = {"Alif": 25, "Asif": 30, "Rochi": 28};
+  print("Numbers List: $numbers");
+  print("Names Set: $names");
+  print("Ages Map: $ages");
+  print("First number in the list: ${numbers.first}");
+  print("Is 'Alif' in names set? ${names.contains("Alif")}");
+  print("Age of Asif: ${ages["Asif"]}");
+  print("Total numbers in the list: ${numbers.length}");
+  print("Total names in the set: ${names.length}");
+  print("Total entries in the map: ${ages.length}");
 }

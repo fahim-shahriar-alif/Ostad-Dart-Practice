@@ -51,4 +51,14 @@ main() {
 
   print(KeyList);
   print(ValueList);
+
+
+  Map<String, int> scores = {  //creating a map with specific data type
+    "Math": 90,
+    "English": 85,
+    "Science": 95
+  };
+
+  print(scores);
+
 }

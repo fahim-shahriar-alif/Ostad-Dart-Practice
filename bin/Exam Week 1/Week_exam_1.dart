@@ -28,7 +28,6 @@ class Car extends Vehicle {
 
  */
 
-
 // d)
 void main() {
   Car myCar = Car();

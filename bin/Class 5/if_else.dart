@@ -6,14 +6,10 @@ main() {
   //ternary Condition
 
   amount >= 400
-
       ? ("Ami Hete jabo")
       : (amount >= 350
-      ? print("Ami Bike eo jete pari")
-      : (amount >= 300
-      ? print("Ami hete jabo")
-      : print("Bus e jabo")));
-
+          ? print("Ami Bike eo jete pari")
+          : (amount >= 300 ? print("Ami hete jabo") : print("Bus e jabo")));
 
   if (amount < 50) {
     print("I will go with my friends");
